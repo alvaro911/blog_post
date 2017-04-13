@@ -1,0 +1,25 @@
+{
+  "name": "blog_post",
+  "version": "1.0.0",
+  "description": "creating a blog post to test REST API and CRUD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvaro911/blog_post.git"
+  },
+  "author": "Alvaro Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvaro911/blog_post/issues"
+  },
+  "homepage": "https://github.com/alvaro911/blog_post#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "uuid": "^3.0.1"
+  }
+}
