@@ -21,11 +21,11 @@ router.post('/', jsonParser, (req, res) => {
     if(!(field in req.body)){
       const message = `Missing ${field} in request body`
       console.log(message)
-      return res.send(400).send(message)
+      return res.status(400).send(message)
     }
   }
   const blog = BlogPosts.create(req.body.title, req.body.content, req.body.author)
-  res.send(201).send(blog)
+  res.status(201).send(blog)
 })
 
 router.delete('/:id', (req, res) => {
